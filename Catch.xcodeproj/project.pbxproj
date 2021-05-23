@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		836CCBBC2659A2F500AF9B4D /* CatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CCBBB2659A2F500AF9B4D /* CatchApp.swift */; };
-		836CCBBE2659A2F500AF9B4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CCBBD2659A2F500AF9B4D /* ContentView.swift */; };
+		836CCBBE2659A2F500AF9B4D /* CatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CCBBD2659A2F500AF9B4D /* CatchView.swift */; };
 		836CCBC02659A2F600AF9B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836CCBBF2659A2F600AF9B4D /* Assets.xcassets */; };
 		836CCBC32659A2F600AF9B4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836CCBC22659A2F600AF9B4D /* Preview Assets.xcassets */; };
+		836CCBCB2659A37800AF9B4D /* CatchGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CCBCA2659A37800AF9B4D /* CatchGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		836CCBB82659A2F500AF9B4D /* Catch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		836CCBBB2659A2F500AF9B4D /* CatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchApp.swift; sourceTree = "<group>"; };
-		836CCBBD2659A2F500AF9B4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		836CCBBD2659A2F500AF9B4D /* CatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchView.swift; sourceTree = "<group>"; };
 		836CCBBF2659A2F600AF9B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		836CCBC22659A2F600AF9B4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		836CCBC42659A2F600AF9B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836CCBCA2659A37800AF9B4D /* CatchGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				836CCBBB2659A2F500AF9B4D /* CatchApp.swift */,
-				836CCBBD2659A2F500AF9B4D /* ContentView.swift */,
+				836CCBBD2659A2F500AF9B4D /* CatchView.swift */,
 				836CCBBF2659A2F600AF9B4D /* Assets.xcassets */,
 				836CCBC42659A2F600AF9B4D /* Info.plist */,
 				836CCBC12659A2F600AF9B4D /* Preview Content */,
+				836CCBCA2659A37800AF9B4D /* CatchGame.swift */,
 			);
 			path = Catch;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				836CCBBE2659A2F500AF9B4D /* ContentView.swift in Sources */,
+				836CCBBE2659A2F500AF9B4D /* CatchView.swift in Sources */,
+				836CCBCB2659A37800AF9B4D /* CatchGame.swift in Sources */,
 				836CCBBC2659A2F500AF9B4D /* CatchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = DanilaG.Catch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = DanilaG.Catch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
